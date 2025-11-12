@@ -40,56 +40,6 @@ This makes it ideal for real-time detection tasks such as **road accident detect
 
 ---
 
-## 🗂️ Folder Structure
-# 🚗 AI Accident Detection Using YOLOv8  
-
-An AI-powered accident detection system built using **YOLOv8** (You Only Look Once), capable of identifying road accidents from CCTV images and videos in real time.  
-The model is trained on a custom dataset of accident and non-accident images to enable smart and efficient traffic monitoring.
-
----
-
-## 📘 Project Overview
-
-This project demonstrates how **deep learning and computer vision** can be applied to improve road safety by detecting accidents automatically from visual footage.  
-We utilized **YOLOv8**, a state-of-the-art object detection algorithm, to detect accident regions within frames and raise automated alerts.
-
-**Key Goals:**
-- Detect accident scenes in real-time video feeds  
-- Differentiate between accident and non-accident frames  
-- Enable future integration with IoT alert systems  
-
----
-
-## 🧠 Concept Behind the Project
-
-YOLOv8 (by Ultralytics) is a **one-stage object detector** that directly predicts bounding boxes and class probabilities from full images in a single forward pass.  
-This makes it ideal for real-time detection tasks such as **road accident detection** from CCTV footage.
-
-**Working Principle:**
-1. The input image/video is divided into grid cells.  
-2. Each cell predicts bounding boxes and class probabilities.  
-3. Non-Max Suppression (NMS) removes overlapping boxes.  
-4. Final output shows bounding boxes labeled as *“Accident”* or *“No Accident”* with confidence scores.
-
----
-
-## 🧩 Features
-
-✅ Detects accidents in real time from images or videos  
-✅ Trained on custom annotated dataset (1200+ samples)  
-✅ Built using YOLOv8 small model for fast performance  
-✅ Compatible with Google Colab GPU for training  
-✅ Accurate and lightweight model ready for deployment  
-
----
-
-## 🗂️ Folder Structure
-<img width="993" height="702" alt="image" src="https://github.com/user-attachments/assets/45b72c6b-696a-4f62-9b97-cc5be5bacf95" />
-
-
-
----
-
 ## ⚙️ Setup and Usage
 
 ### 1️⃣ Clone Repository
