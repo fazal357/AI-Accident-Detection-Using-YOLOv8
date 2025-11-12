@@ -119,7 +119,7 @@ pip install ultralytics==8.0.20
 !yolo task=detect mode=predict model=runs/detect/train/weights/best.pt source='data/test/images' conf=0.25
 ```
 
-📊 Dataset Details
+📊 Dataset Details - https://drive.google.com/drive/u/0/folders/1WJm1ozQRfHYQwyNyYUm9mr8TpDQeUDuM
 
 Total Images: 1200+ (Accident & Non-Accident)
 
